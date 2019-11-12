@@ -1,0 +1,15 @@
+
+<script>
+// Clouser is a function inside a function. Follow the below example
+
+function showName(first,last){
+	
+	function makeFullName(){
+		return `${first} ${last}`;
+	}
+
+	return makeFullName();
+}
+
+alert(showName('Gopi','Devarapalli')); // It will show "Gopi Devarapalli"
+</script>
